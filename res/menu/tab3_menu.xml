@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="heuristy.ALLA.penguinbox.MainActivity" >
+
+    <item
+        android:id="@+id/tab3_addfriend"
+        android:title="@string/menu_tab3_addfriend"
+        android:icon="@drawable/actionbutton_addfriend"
+        android:showAsAction="ifRoom"
+        />
+    
+	<item
+        android:id="@+id/tab3_download"
+        android:title="@string/menu_tab3_download"
+        android:icon="@drawable/actionbutton_download"
+        android:showAsAction="ifRoom"
+        />
+
+</menu>

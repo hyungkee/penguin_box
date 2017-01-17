@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3e3e3" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/DefaultBackColor"
+            android:focusable="true"
+            android:focusableInTouchMode="true" >
+
+            <!-- 바로위 설명. 이는 구동되자마자 EditText에 포커스가 가는것을 방지한다. -->
+
+            <ImageView
+                android:id="@+id/searchImage"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/find_colored" />
+
+            <EditText
+                android:id="@+id/searchText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/searchImage"
+                android:background="@null"
+                android:hint="@string/tab1_findhint"
+                android:inputType="text|textPersonName"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/searchTextDeleteImage"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/cancel" />
+        </RelativeLayout>
+
+        <!-- 구분선 -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ListView
+                android:id="@+id/friendList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/DefaultBackColor" >
+            </ListView>
+
+            <LinearLayout
+                android:id="@+id/navigationBar"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#19000000"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp" />
+
+            <RelativeLayout
+                android:id="@+id/navigationTextContainer"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:background="#7000"
+                android:visibility="invisible" >
+
+                <TextView
+                    android:id="@+id/navigationText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text=""
+                    android:textColor="#FFF"
+                    android:textSize="50dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

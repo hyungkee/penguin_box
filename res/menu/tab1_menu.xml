@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="heuristy.ALLA.penguinbox.MainActivity" >
+    
+    
+
+
+    <item
+        android:id="@+id/tab1_sync"
+        android:icon="@drawable/actionbutton_sync"
+        android:showAsAction="always"
+        android:title="@string/menu_tab1_sync"/>
+    <item
+        android:id="@+id/tab1_edit"
+        android:icon="@drawable/actionbutton_edit2"
+        android:showAsAction="always"
+        android:title="@string/menu_tab1_edit"/>
+    <item
+        android:id="@+id/tab1_delete"
+        android:icon="@drawable/actionbutton_delete"
+        android:visible="false"
+        android:showAsAction="always"
+        android:title="@string/menu_tab1_delete"/>
+    <item
+        android:id="@+id/tab1_find"
+        android:icon="@drawable/actionbutton_find"
+        android:showAsAction="always"
+        android:title="@string/menu_tab1_find"/>
+
+</menu>

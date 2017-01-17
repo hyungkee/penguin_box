@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PenguinBox</string>
+    <string name="tab1_title">친구 목록</string>
+    <string name="tab2_title">박스 찾기</string>
+    <string name="tab3_title">박스 탐색</string>
+    <string name="tab4_title">나의 박스</string><string name="tab5_title">더 보기</string>
+    <string name="tab1_findhint">친구의 이름을 입력하세요.</string>
+    <color name="AppBaseNormal">#55962c</color>
+    <color name="AppBaseHard">#3d6921</color>
+    <color name="AppBaselight">#81d54e</color>
+    <color name="ClickedColor">#81d54e</color>
+    <color name="NavigationBarDefault">#F0F0F0</color>
+    <color name="NavigationBarSelected">#E0E0E0</color><color name="DefaultBackColor">#FFFFFF</color>
+    <color name="DefaultGrayColor">#E3E3E3</color>
+    <color name="YellowHighlight">#f8ffed</color>
+    <string name="menu_tab1_delete">친구 삭제</string>
+    <string name="menu_tab1_find">친구 찾기</string>
+    <string name="menu_tab1_edit">친구 목록 편집</string>
+    <string name="menu_tab2_find">친구 찾기</string>
+    <string name="menu_tab3_addfriend">친구 추가</string>
+    <string name="menu_tab3_download">다운로드</string>
+    <string name="menu_tab4_share">공유</string>
+    <string name="menu_tab4_add">파일 추가</string>
+    
+    
+    <string name="menu_tab1_sync">주소록 동기화</string>
+    
+    
+    
+    
+
+</resources>

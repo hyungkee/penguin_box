@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DefaultGrayColor" >
+    
+	<!--  웹 광고  -->
+	<View
+	    android:id="@+id/add"
+	    android:layout_width="match_parent"
+	    android:layout_height="70dp"
+	    android:layout_alignParentBottom="true"
+	    android:background="#0000FF"
+	    />
+	        
+	<ListView 
+		android:id="@+id/settingList"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@id/add"
+		android:background="@color/DefaultBackColor">
+		</ListView>
+
+
+
+
+</RelativeLayout>

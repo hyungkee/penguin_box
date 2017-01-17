@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="heuristy.ALLA.penguinbox"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <!-- 내부 SQLite와 연동 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    
+    <!-- 연락처 동기화 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    
+    <!-- 네트워크 통신 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <!-- 뭐더라 -->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	
+	<!-- 가입 승인 문자 -->
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	<uses-permission android:name="android.permission.RECEIVE_SMS" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tab5Page1"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="내 프로필"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".JoinUsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="PenguinBox에 환영합니다!"
+            android:screenOrientation="portrait"  >
+        </activity>
+    </application>
+
+</manifest>

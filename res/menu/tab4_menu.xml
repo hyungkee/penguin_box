@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="heuristy.ALLA.penguinbox.MainActivity" >
+
+    <item
+        android:id="@+id/tab4_share"
+        android:title="@string/menu_tab4_share"
+        android:icon="@drawable/actionbutton_share"
+        android:showAsAction="ifRoom"
+        />
+    
+    
+    <item
+        android:id="@+id/tab4_add"
+        android:title="@string/menu_tab4_add"
+        android:icon="@drawable/actionbutton_add"
+        android:showAsAction="ifRoom"
+        />
+    
+
+</menu>

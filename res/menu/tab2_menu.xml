@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="heuristy.ALLA.penguinbox.MainActivity" >
+
+    <item
+        android:id="@+id/tab2_find"
+        android:title="@string/menu_tab2_find"
+        android:icon="@drawable/actionbutton_find"
+        android:showAsAction="ifRoom"
+        />
+    
+    
+</menu>
